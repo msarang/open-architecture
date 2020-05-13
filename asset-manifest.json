@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/open-architecture/static/css/main.8eb5f86f.chunk.css",
+    "main.js": "/open-architecture/static/js/main.c9fb67f8.chunk.js",
+    "main.js.map": "/open-architecture/static/js/main.c9fb67f8.chunk.js.map",
+    "runtime-main.js": "/open-architecture/static/js/runtime-main.be03d244.js",
+    "runtime-main.js.map": "/open-architecture/static/js/runtime-main.be03d244.js.map",
+    "static/js/2.6c7dfeb8.chunk.js": "/open-architecture/static/js/2.6c7dfeb8.chunk.js",
+    "static/js/2.6c7dfeb8.chunk.js.map": "/open-architecture/static/js/2.6c7dfeb8.chunk.js.map",
+    "index.html": "/open-architecture/index.html",
+    "precache-manifest.1cd27bdef68073e96bc0a5dae4395475.js": "/open-architecture/precache-manifest.1cd27bdef68073e96bc0a5dae4395475.js",
+    "service-worker.js": "/open-architecture/service-worker.js",
+    "static/css/main.8eb5f86f.chunk.css.map": "/open-architecture/static/css/main.8eb5f86f.chunk.css.map",
+    "static/js/2.6c7dfeb8.chunk.js.LICENSE.txt": "/open-architecture/static/js/2.6c7dfeb8.chunk.js.LICENSE.txt",
+    "static/media/earthrise.jpg": "/open-architecture/static/media/earthrise.0edc2e15.jpg",
+    "static/media/earthrise_over_moon.jpg": "/open-architecture/static/media/earthrise_over_moon.7d4b9763.jpg",
+    "static/media/lunar_surface.png": "/open-architecture/static/media/lunar_surface.d27b5d52.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be03d244.js",
+    "static/js/2.6c7dfeb8.chunk.js",
+    "static/css/main.8eb5f86f.chunk.css",
+    "static/js/main.c9fb67f8.chunk.js"
+  ]
+}
