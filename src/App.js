@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <NavigationBar />
         <Switch>
-          <Route exact path="/Home" component={Home}/>
+          <Route exact path="/" component={Home}/>
           <Route exact path="/Database" component={Database} />
           <Route exact path="/Contribute" component={Contribute} />
           <Route component={NoMatch} />
