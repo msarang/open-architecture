@@ -6,6 +6,7 @@ import { FaRocket } from 'react-icons/fa';
 import { FaWrench } from 'react-icons/fa';
 import { FaSatellite } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
+import { Link} from 'react-router-dom';
 
 const Styles = styled.div`
 .container-fluid {
@@ -19,7 +20,6 @@ const Styles = styled.div`
 .row {
     display: flex;
     justify-content: center;
-    padding-bottom: 1%;
 }
 
 .col {
@@ -36,6 +36,7 @@ const Heading = styled.h2 `
     font-size: 20px;
     font-weight: bold;
     color: white;
+    padding-bottom: 25px;
 }`
 
 const Body = styled.p `
@@ -47,21 +48,22 @@ const Body = styled.p `
 
 export const Activities = () => (
     <Styles>
-        <IconContext.Provider value = {{color: '#6889AB', size: '5rem'}}>
+        <IconContext.Provider value = {{color: 'white', size: '3rem'}}>
             <Container fluid>
                 <Row>
-                    <Heading>Explore lunar activities by category</Heading>
+                    <Heading>Explore by category</Heading>
                 </Row>
-                <Row xs={5} fluid>
-                    <Col><FaUserAstronaut/>hey</Col>
-                            
-                    <Col><FaRocket/></Col>
-                            
+                <Row xs={4} fluid>
+                    <Col><FaUserAstronaut/></Col>
                     <Col><FaWrench/></Col>
-
                     <Col><FaSatellite/></Col>
-                            
-                    <Col><FaSatellite/></Col>
+                    <Col><FaRocket/></Col>
+                </Row>
+                <Row xs={4} fluid>
+                    <Col><Link to="./missions">Missions</Link></Col>
+                    <Col><Body>Technologies</Body></Col>
+                    <Col><Body>Instruments/Payloads</Body></Col>
+                    <Col><Body>Actors</Body></Col>
                 </Row>
         </Container>
     </IconContext.Provider>

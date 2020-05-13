@@ -3,6 +3,7 @@ import {Container, Row, Card, Button, Col, Image} from 'react-bootstrap';
 import styled from 'styled-components';
 import ImageOne from "./lunar_surface.png";
 import ImageTwo from "./earthrise.jpg";
+import {Link} from 'react-router-dom';
 
 const Styles = styled.div`
 .container-fluid {
@@ -44,7 +45,11 @@ export const Explore = () => (
                         <Card.Img src={ImageTwo}/>
                         <Card.ImgOverlay>
                         <Card.Body>
-                            <Button variant="primary"  href="./Database">Explore the Database</Button>
+                            <Button variant="primary">
+                                <Link to ="./Database">
+                                Explore the Database
+                                </Link>
+                                </Button>
                         </Card.Body>
                         </Card.ImgOverlay>
                     </Card>
