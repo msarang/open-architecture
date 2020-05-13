@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import './App.css';
 import {Home} from './Home/Home';
 import {Database} from './Database';
 import {Contribute} from './Contribute';
-import {NoMatch} from './NoMatch';
 import { NavigationBar } from './Components/NavigationBar';
 
 class App extends Component {
  render() {
   return (
     <React.Fragment>
-      <Router>
+      <HashRouter basename="/">
         <NavigationBar />
-        <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/Database" component={Database} />
-          <Route exact path="/Contribute" component={Contribute} />
-          <Route component={NoMatch} />
-        </Switch>
-      </Router>
+          <Route path="/Database" component={Database} />
+          <Route path="/Contribute" component={Contribute} />
+      </HashRouter> 
     </React.Fragment>
   );
 }

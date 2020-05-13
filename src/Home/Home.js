@@ -1,7 +1,6 @@
 import React from 'react';
-import {Container, Row, Card, Button, CardGroup, Col, Jumbotron} from 'react-bootstrap';
+import { Jumbotron} from 'react-bootstrap';
 import styled from 'styled-components';
-import ImageOne from "./earthrise_over_moon.jpg";
 import {Explore} from "./explore";
 import {Team} from "./team";
 import {Project} from "./Project";
