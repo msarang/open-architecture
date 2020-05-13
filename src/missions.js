@@ -19,7 +19,7 @@ const PaddedCol = styled(Col)`
   padding-top: 20px;
 `;
 
-export class Technologies extends Component {
+export class Missions extends Component {
   constructor(props) {
     super(props);
     this.state = {
