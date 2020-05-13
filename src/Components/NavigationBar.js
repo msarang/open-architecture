@@ -13,11 +13,23 @@ export const NavigationBar = () => (
     <Styles>
     <Navbar fixed="top" expand="lg">
         <Nav className='mr-auto'>
-            <Nav.Item><Nav.Link href="./Home">Home</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link href ="./Database">Database</Nav.Link></Nav.Item>
+            <Nav.Item>
+                <Nav.Link>
+                <Link to="/">Home</Link>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link>
+                <Link to="./Database">Database</Link>
+                </Nav.Link>
+            </Nav.Item>
         </Nav>
         <Nav>
-            <Button><Nav.Link href="./Contribute">Contribute to the Database</Nav.Link></Button>
+            <Button>
+                <Nav.Link>
+                    <Link to="./Contribute">Contribute to the Database</Link>
+                </Nav.Link>
+            </Button>
         </Nav>
     </Navbar>
 </Styles>
