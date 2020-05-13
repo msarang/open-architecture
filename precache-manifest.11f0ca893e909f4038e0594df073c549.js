@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac03b4f23a09921ede82580b097d6c7f",
+    "revision": "5790913ef36ff3581b87c358dae41cee",
     "url": "/open-architecture/index.html"
   },
   {
-    "revision": "9a83efb7a705a64abeca",
+    "revision": "5e36b0891e89b0a7012d",
     "url": "/open-architecture/static/css/main.8eb5f86f.chunk.css"
   },
   {
-    "revision": "577186b8b4b71c1e7a86",
-    "url": "/open-architecture/static/js/2.bb0eb525.chunk.js"
+    "revision": "7c634f25627911742f18",
+    "url": "/open-architecture/static/js/2.4e0993c0.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/open-architecture/static/js/2.bb0eb525.chunk.js.LICENSE.txt"
+    "url": "/open-architecture/static/js/2.4e0993c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a83efb7a705a64abeca",
-    "url": "/open-architecture/static/js/main.1ac3d8ac.chunk.js"
+    "revision": "5e36b0891e89b0a7012d",
+    "url": "/open-architecture/static/js/main.7303b9b7.chunk.js"
   },
   {
     "revision": "fe42288972871c0637c8",
