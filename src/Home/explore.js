@@ -35,6 +35,19 @@ const Styles = styled.div`
 }
 `;
 
+const Heading = styled.h2 `
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 25px;
+    self-align: center;
+}`
+
+const StyledLink = styled(Link)`
+    color: white;
+`;
+
+
 
 export const Explore = () => (
     <Styles>
@@ -46,9 +59,9 @@ export const Explore = () => (
                         <Card.ImgOverlay>
                         <Card.Body>
                             <Button variant="primary">
-                                <Link to ="./Database">
+                                <StyledLink to ="./Database">
                                 Explore the Database
-                                </Link>
+                                </StyledLink>
                                 </Button>
                         </Card.Body>
                         </Card.ImgOverlay>
@@ -66,5 +79,5 @@ export const Explore = () => (
                 </Col>
             </Row>
     </Container>
-    </Styles>
+</Styles>
 )

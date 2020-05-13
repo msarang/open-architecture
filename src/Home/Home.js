@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import {Explore} from "./explore";
 import {Team} from "./team";
 import {Project} from "./Project";
-import {Activities} from "./activities";
 
 const Styles = styled.div`
 
@@ -37,7 +36,6 @@ export const Home = () => (
             </p>
         </Jumbotron>
         <Explore />
-        <Activities />
         <Project />
         <Team />
     </Styles>

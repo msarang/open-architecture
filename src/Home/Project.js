@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, Row, Card, Button, Col, Image} from 'react-bootstrap';
 import styled from 'styled-components';
+import Iframe from 'react-iframe';
 
 const Styles = styled.div`
 .container-fluid {
@@ -71,6 +72,9 @@ export const Project = () => (
                             </ProjectBody>
                         </Col>
                     </Row>
+                <Row>
+                <Iframe url="https://embed.kumu.io/cd8f6c712f6186539eff6c55c47a91e0" width="100%" height="600" frameborder="0"/>
+                </Row>
         </Container>
     </Styles>
 )

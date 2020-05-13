@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 import {Card, Col, Row, Container, ListGroup, ListGroupItem} from 'react-bootstrap';
 import styled from 'styled-components';
 
+const Styles = styled.div`
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.row {
+  overflow-y: scroll;
+}
+
+`;
+
 const StyledCard = styled(Card)`
   background-color: white;
   color: black;
@@ -18,6 +32,8 @@ const PaddedCol = styled(Col)`
   padding-bottom: 20px;
   padding-top: 20px;
 `;
+
+
 
 export class Missions extends Component {
   constructor(props) {
@@ -40,6 +56,7 @@ export class Missions extends Component {
 
   render() {
     return (
+      <Styles>
       <Container>
         <Row>
               {this.state.missions.map(mission => (
@@ -49,6 +66,7 @@ export class Missions extends Component {
               ))}
         </Row>
       </Container>
+      </Styles>
     );
   }
 }

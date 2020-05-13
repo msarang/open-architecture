@@ -1,6 +1,6 @@
 import React from 'react';
 import {Nav, Navbar, Button} from 'react-bootstrap';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -9,6 +9,12 @@ const Styles = styled.div`
     }
 
 `;
+
+
+const StyledLink = styled(Link)`
+    color: white;
+`;
+
 
 export const NavigationBar = () => (
     <Styles>
@@ -21,14 +27,19 @@ export const NavigationBar = () => (
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link>
-                <Link to="./Database">Database</Link>
+                <Link to="./Database">Full Database</Link>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link>
+                <Link to="./missions">Missions Database</Link>
                 </Nav.Link>
             </Nav.Item>
         </Nav>
         <Nav>
             <Button>
                 <Nav.Link>
-                    <Link to="./Contribute">Contribute to the Database</Link>
+                    <StyledLink to="./Contribute">Contribute to the Database</StyledLink>
                 </Nav.Link>
             </Button>
         </Nav>
