@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/open-architecture/static/css/main.8eb5f86f.chunk.css",
-    "main.js": "/open-architecture/static/js/main.760612f2.chunk.js",
-    "main.js.map": "/open-architecture/static/js/main.760612f2.chunk.js.map",
+    "main.css": "/open-architecture/static/css/main.0aada10a.chunk.css",
+    "main.js": "/open-architecture/static/js/main.12eb7638.chunk.js",
+    "main.js.map": "/open-architecture/static/js/main.12eb7638.chunk.js.map",
     "runtime-main.js": "/open-architecture/static/js/runtime-main.be03d244.js",
     "runtime-main.js.map": "/open-architecture/static/js/runtime-main.be03d244.js.map",
     "static/js/2.1eae0fa0.chunk.js": "/open-architecture/static/js/2.1eae0fa0.chunk.js",
     "static/js/2.1eae0fa0.chunk.js.map": "/open-architecture/static/js/2.1eae0fa0.chunk.js.map",
     "index.html": "/open-architecture/index.html",
-    "precache-manifest.077d76d0bd520efc27113c180066c37e.js": "/open-architecture/precache-manifest.077d76d0bd520efc27113c180066c37e.js",
+    "precache-manifest.abdb172745d4f75e3d280c8ce9ac5b90.js": "/open-architecture/precache-manifest.abdb172745d4f75e3d280c8ce9ac5b90.js",
     "service-worker.js": "/open-architecture/service-worker.js",
-    "static/css/main.8eb5f86f.chunk.css.map": "/open-architecture/static/css/main.8eb5f86f.chunk.css.map",
+    "static/css/main.0aada10a.chunk.css.map": "/open-architecture/static/css/main.0aada10a.chunk.css.map",
     "static/js/2.1eae0fa0.chunk.js.LICENSE.txt": "/open-architecture/static/js/2.1eae0fa0.chunk.js.LICENSE.txt",
     "static/media/earthrise_over_moon.jpg": "/open-architecture/static/media/earthrise_over_moon.1551ee57.jpg",
     "static/media/lunar_surface.png": "/open-architecture/static/media/lunar_surface.d27b5d52.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.be03d244.js",
     "static/js/2.1eae0fa0.chunk.js",
-    "static/css/main.8eb5f86f.chunk.css",
-    "static/js/main.760612f2.chunk.js"
+    "static/css/main.0aada10a.chunk.css",
+    "static/js/main.12eb7638.chunk.js"
   ]
 }
