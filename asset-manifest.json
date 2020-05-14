@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/open-architecture/static/css/main.8eb5f86f.chunk.css",
-    "main.js": "/open-architecture/static/js/main.a43c454e.chunk.js",
-    "main.js.map": "/open-architecture/static/js/main.a43c454e.chunk.js.map",
+    "main.js": "/open-architecture/static/js/main.052f69d7.chunk.js",
+    "main.js.map": "/open-architecture/static/js/main.052f69d7.chunk.js.map",
     "runtime-main.js": "/open-architecture/static/js/runtime-main.be03d244.js",
     "runtime-main.js.map": "/open-architecture/static/js/runtime-main.be03d244.js.map",
-    "static/js/2.f1595973.chunk.js": "/open-architecture/static/js/2.f1595973.chunk.js",
-    "static/js/2.f1595973.chunk.js.map": "/open-architecture/static/js/2.f1595973.chunk.js.map",
+    "static/js/2.1eae0fa0.chunk.js": "/open-architecture/static/js/2.1eae0fa0.chunk.js",
+    "static/js/2.1eae0fa0.chunk.js.map": "/open-architecture/static/js/2.1eae0fa0.chunk.js.map",
     "index.html": "/open-architecture/index.html",
-    "precache-manifest.ad6573c8fecc4fc89bff782b724e63c3.js": "/open-architecture/precache-manifest.ad6573c8fecc4fc89bff782b724e63c3.js",
+    "precache-manifest.5209bcda9a6f02f615cb3da779dfad77.js": "/open-architecture/precache-manifest.5209bcda9a6f02f615cb3da779dfad77.js",
     "service-worker.js": "/open-architecture/service-worker.js",
     "static/css/main.8eb5f86f.chunk.css.map": "/open-architecture/static/css/main.8eb5f86f.chunk.css.map",
-    "static/js/2.f1595973.chunk.js.LICENSE.txt": "/open-architecture/static/js/2.f1595973.chunk.js.LICENSE.txt",
+    "static/js/2.1eae0fa0.chunk.js.LICENSE.txt": "/open-architecture/static/js/2.1eae0fa0.chunk.js.LICENSE.txt",
     "static/media/earthrise_over_moon.jpg": "/open-architecture/static/media/earthrise_over_moon.1551ee57.jpg",
     "static/media/lunar_surface.png": "/open-architecture/static/media/lunar_surface.d27b5d52.png",
     "static/media/moon_background.png": "/open-architecture/static/media/moon_background.ffc118b5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.be03d244.js",
-    "static/js/2.f1595973.chunk.js",
+    "static/js/2.1eae0fa0.chunk.js",
     "static/css/main.8eb5f86f.chunk.css",
-    "static/js/main.a43c454e.chunk.js"
+    "static/js/main.052f69d7.chunk.js"
   ]
 }
