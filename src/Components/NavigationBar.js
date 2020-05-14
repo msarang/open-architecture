@@ -20,11 +20,7 @@ export const NavigationBar = () => (
     <Styles>
     <Navbar fixed="top" expand="lg">
         <Nav className='mr-auto'>
-            <Nav.Item>
-                <Nav.Link>
-                <Link to="/">Home</Link>
-                </Nav.Link>
-            </Nav.Item>
+        <Navbar.Brand><Link to="/">Lunar Open Architecture (LOA)</Link></Navbar.Brand>
             <Nav.Item>
                 <Nav.Link>
                 <Link to="./Database">Full Database</Link>

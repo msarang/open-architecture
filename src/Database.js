@@ -1,6 +1,6 @@
 import React from 'react';
 import Iframe from 'react-iframe'
-import { Nav, Tab, Row, Col, Container } from 'react-bootstrap';
+import { Row, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -49,8 +49,8 @@ const Paragraph = styled.p`
 export const Database = () => (
     <Styles>
         <Container fluid>
-            <Row fluid><Title>Lunar Missions Database</Title></Row>
-            <Row fluid><Paragraph>
+            <Row><Title>Lunar Missions Database</Title></Row>
+            <Row><Paragraph>
                 
                 This database is incomplete. You can help by <Link to="./Contribute">submitting missions,</Link> or <Link to="./Contribute">updating records</Link> with information regarding payloads, technologies, goals, objectives, funding, and more.
                 <br></br>
