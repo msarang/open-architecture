@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom';
 const Styles = styled.div`
 .container-fluid {
     background-color: black; 
+    padding-top: 50px;
 }
 
 .col {

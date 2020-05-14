@@ -8,45 +8,36 @@ import ImageTwo from "./earthrise_over_moon.jpg";
 import Moon from "./moon_background.png";
 import {Link} from 'react-router-dom';
 
-
-
 const ContainerStyle = styled(Container)`
-    min-width: 100vw;    
-    padding: 0;
-    margin: 0;
     background-color: black;
-    min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 90vh;
 `;
 
-const ContainerHome = styled(Container)`
-    display: flex;
+const FlexRow = styled(Row)`
     flex-grow: 1;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-`;
+`
 
 const Title = styled.h1`
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Lato', sans-serif;
-    font-size: 6em;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    padding-left: 3rem;
+    font-size: 6vw;
+    padding-top: 2%;
+    padding-left: 5%;
 `
-const ImageWrapper = styled.div`
+const ImageWrapper = styled(Col)`
     flex-grow: 1;
     flex-direction: column;
     display: flex;
-    align-items: stretch;
     justify-content: flex-end;
 `
 
 const ImageStyled = styled(Image)`
     flex-grow: 1;
-    max-height: 50vh;
-    max-width: 50vw;
+    max-height: 45vh;
+    min-width: 30vw;
     fluid: true;
 `
 
@@ -54,32 +45,22 @@ const CardWrapper = styled.div`
     flex-grow: 1;
     flex-direction: row;
     display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
 `
 
 const CardResponsive = styled(Card)`
     flex-grow: 1;
-    fluid:true;
     max-width: 20rem;
     max-height: 20rem;
+`
 
-`
-const Wrapper = styled(Col)`
-    flex-grow: 1;
-    flex-direction: column;
-    display: flex;
-    align-items: end;
-    margin: 1rem;
-    align-self: center;
-    color: white;
-`
 const Paragraph = styled.p`
     font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255, 0.9);
     margin-top: 100px;
+    font-size: 2vw;
     text-align: right;
-    padding-right: 100px;
-    padding-bottom: 0px;
-    font-size: 2em;
 `
 const StyledLink = styled(Link)`
     color: white;
@@ -87,59 +68,42 @@ const StyledLink = styled(Link)`
 
 export const Home = () => (
     <React.Fragment>
-        <ContainerStyle>
-            <ContainerHome fluid>
+        <ContainerStyle fluid>
+                <FlexRow md={1}> 
+                    <Col className="md-auto"><Title>Welcome to The Lunar Open Architecture Project</Title></Col>
 
-                <Row xs={12}> 
-                    <Col className="md-auto"><Wrapper><Title>Welcome to The Lunar Open Architecture Project</Title></Wrapper></Col>
-                </Row>
+                </FlexRow>
 
-                <Row xs={6}>
-                    <Col></Col>
-                    <Col></Col>
-                </Row>
+                <FlexRow xs={12}>
+   
+                <ImageWrapper><ImageStyled src={Moon} /></ImageWrapper>
 
-                <Row xs={12}>
-                    <Col><ImageWrapper><ImageStyled src={Moon} /></ImageWrapper></Col>
-
-                    <Col>
-                    <Row>
-
-                        <CardWrapper xs={2}>
-                                <CardResponsive>
+                
+                <Col className="md-auto">
+                    
+                    <CardWrapper>
+                        
+                        <CardResponsive>
+                            <Card.ImgOverlay> <Link to ="./Database">Explore the Database</Link></Card.ImgOverlay>
                                     <Card.Img variant="top" src={ImageOne} />
-                                    <Card.ImgOverlay>
-                                    <Card.Title>
-                                        <StyledLink to ="./Database">Explore the Database</StyledLink>
-                                    </Card.Title>
-                                    </Card.ImgOverlay>
-                                </CardResponsive>
-                        </CardWrapper>
+                        </CardResponsive>
 
-                        <CardWrapper xs={2}>
-                            <CardResponsive>
-                                <Card.Img variant="top" src={ImageTwo} />
-                                <Card.ImgOverlay>
-                                <Card.Title>
-                                        <StyledLink>Explore the Roadmap</StyledLink>
-                                    </Card.Title>
-                                </Card.ImgOverlay>
-                            </CardResponsive>
-                        </CardWrapper>
-                        </Row>
-                        <Row>
-                        <Col xs={12}>
-                            <Paragraph>We believe the future of lunar exploration should be open, shared, and collaborative</Paragraph>
-                        </Col>
-                    </Row>
-                    </Col>
-                </Row>
-            
-            </ContainerHome>
+                        <CardResponsive>
+                            <Card.ImgOverlay><Link>Explore the Roadmap</Link></Card.ImgOverlay>
+                        <Card.Img variant="top" src={ImageTwo} />
+                        </CardResponsive>
+
+                    </CardWrapper>
+
+                    <Col><Paragraph>We believe the future of lunar exploration should be open, shared, and collaborative</Paragraph></Col>
+
+                </Col>
+
+
+                </FlexRow>
+
         </ContainerStyle>
-
         <Project />
         <a id="Team"><Team /></a>
-
     </React.Fragment>
 )
