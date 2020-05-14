@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2479d6ba4e2e40f0ddfe8cff79ae7dd4",
+    "revision": "85e0a6f46c9e532aa665aae7411d88b3",
     "url": "/open-architecture/index.html"
   },
   {
