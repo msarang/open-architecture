@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Card, Col, Row, Container, ListGroup, ListGroupItem} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -84,6 +85,6 @@ const MissionCard = ({missionname, actor, program, missiontype, status, year, im
           <ListGroupItem key={actor+year}><b>Year</b>: {year}</ListGroupItem>
         </ListGroup>
     </Card.Body>
-    <Card.Footer><Card.Link href="#">See a problem? Suggest a change here.</Card.Link></Card.Footer>
+    <Card.Footer><Link to="./Contribute">See a problem? Suggest a change here.</Link></Card.Footer>
   </StyledCard>
 );

@@ -10,7 +10,7 @@ const Styles = styled.div`
     padding-bottom: 10% ;
     padding-left: 5% ;
     padding-right: 10% ;
-    margin-top: 10%;
+
 
 }
 
@@ -20,6 +20,7 @@ const Styles = styled.div`
 
 .col {
     padding-right: 80px;
+    padding-top: 50px;
 }
 
 .col h1 {
@@ -28,6 +29,8 @@ const Styles = styled.div`
 
 .col p {
     text-align: initial;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .col h2 {
@@ -64,7 +67,6 @@ export const Team = () => (
                 <Button href="https://www.openlunar.org/">Learn More</Button>
                 
             </Col>
-    
       </Row>
         </Container>
     </Styles>

@@ -2,6 +2,7 @@ import React from 'react';
 import {Nav, Navbar, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import {HashLink as AnotherLink } from 'react-router-hash-link';
 
 const Styles = styled.div`
     .navbar {
@@ -9,7 +10,6 @@ const Styles = styled.div`
     }
 
 `;
-
 
 const StyledLink = styled(Link)`
     color: white;
@@ -35,13 +35,16 @@ export const NavigationBar = () => (
                 <Link to="./missions">Missions Database</Link>
                 </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+                <Nav.Link>
+                <AnotherLink to="./#Team">About</AnotherLink>
+                </Nav.Link>
+            </Nav.Item>
         </Nav>
         <Nav>
-            <Button>
                 <Nav.Link>
-                    <StyledLink to="./Contribute">Contribute to the Database</StyledLink>
+                    <StyledLink to="./Contribute"> <Button>Contribute to the Database</Button></StyledLink>
                 </Nav.Link>
-            </Button>
         </Nav>
     </Navbar>
 </Styles>
