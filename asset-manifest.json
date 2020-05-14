@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/open-architecture/static/css/main.8eb5f86f.chunk.css",
-    "main.js": "/open-architecture/static/js/main.052f69d7.chunk.js",
-    "main.js.map": "/open-architecture/static/js/main.052f69d7.chunk.js.map",
+    "main.js": "/open-architecture/static/js/main.760612f2.chunk.js",
+    "main.js.map": "/open-architecture/static/js/main.760612f2.chunk.js.map",
     "runtime-main.js": "/open-architecture/static/js/runtime-main.be03d244.js",
     "runtime-main.js.map": "/open-architecture/static/js/runtime-main.be03d244.js.map",
     "static/js/2.1eae0fa0.chunk.js": "/open-architecture/static/js/2.1eae0fa0.chunk.js",
     "static/js/2.1eae0fa0.chunk.js.map": "/open-architecture/static/js/2.1eae0fa0.chunk.js.map",
     "index.html": "/open-architecture/index.html",
-    "precache-manifest.5209bcda9a6f02f615cb3da779dfad77.js": "/open-architecture/precache-manifest.5209bcda9a6f02f615cb3da779dfad77.js",
+    "precache-manifest.e8065d5d6f20ae3406ae7a5e3e46d2e8.js": "/open-architecture/precache-manifest.e8065d5d6f20ae3406ae7a5e3e46d2e8.js",
     "service-worker.js": "/open-architecture/service-worker.js",
     "static/css/main.8eb5f86f.chunk.css.map": "/open-architecture/static/css/main.8eb5f86f.chunk.css.map",
     "static/js/2.1eae0fa0.chunk.js.LICENSE.txt": "/open-architecture/static/js/2.1eae0fa0.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.be03d244.js",
     "static/js/2.1eae0fa0.chunk.js",
     "static/css/main.8eb5f86f.chunk.css",
-    "static/js/main.052f69d7.chunk.js"
+    "static/js/main.760612f2.chunk.js"
   ]
 }
