@@ -10,8 +10,6 @@ const Styles = styled.div`
     padding-bottom: 10% ;
     padding-left: 5% ;
     padding-right: 10% ;
-
-
 }
 
 .row {
@@ -60,10 +58,10 @@ export const Team = () => (
                 </p>
                 <Button href="https://www.media.mit.edu/groups/space-exploration/overview/">Learn More</Button>
             </Col>
-            <Col><br></br></Col>
+            <Col><Button href="https://docs.google.com/forms/d/e/1FAIpQLSfoyk_JZuw415Qo65K80FPPJmJqKH2jdj8N2aC2SyCvHimP-w/viewform?usp=sf_link">Suggestions? Interested in project updates?</Button></Col>
             <Col className="OL">
                 <h2>Open Lunar Foundation</h2>
-                <p> The Open Lunar Foundation is...</p>
+                <p> Open Lunar Foundation is helping to create a peaceful, cooperative future on the Moon for all life. We work on policy and partnerships that support a sustainable lunar settlement driven by open values.</p>
                 <Button href="https://www.openlunar.org/">Learn More</Button>
                 
             </Col>

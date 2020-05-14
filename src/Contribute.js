@@ -30,6 +30,14 @@ export const Contribute = () => (
                             height = "1000"
                             frameBorder = "10px" />
             </Tab>
+            <Tab eventKey="updates" title="Sign up for Project Updates">
+                <Iframe url ="https://docs.google.com/forms/d/e/1FAIpQLSfoyk_JZuw415Qo65K80FPPJmJqKH2jdj8N2aC2SyCvHimP-w/viewform?embedded=true" 
+                            marginheight = "100px"
+                            marginWidth = "100px"
+                            width = "100%"
+                            height = "1000"
+                            frameBorder = "10px" />
+            </Tab>
         </Tabs>
     </Container>
 </Styles>
