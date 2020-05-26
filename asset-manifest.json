@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/open-architecture/static/css/main.0aada10a.chunk.css",
-    "main.js": "/open-architecture/static/js/main.12eb7638.chunk.js",
-    "main.js.map": "/open-architecture/static/js/main.12eb7638.chunk.js.map",
-    "runtime-main.js": "/open-architecture/static/js/runtime-main.be03d244.js",
-    "runtime-main.js.map": "/open-architecture/static/js/runtime-main.be03d244.js.map",
-    "static/js/2.1eae0fa0.chunk.js": "/open-architecture/static/js/2.1eae0fa0.chunk.js",
-    "static/js/2.1eae0fa0.chunk.js.map": "/open-architecture/static/js/2.1eae0fa0.chunk.js.map",
-    "index.html": "/open-architecture/index.html",
-    "precache-manifest.abdb172745d4f75e3d280c8ce9ac5b90.js": "/open-architecture/precache-manifest.abdb172745d4f75e3d280c8ce9ac5b90.js",
-    "service-worker.js": "/open-architecture/service-worker.js",
-    "static/css/main.0aada10a.chunk.css.map": "/open-architecture/static/css/main.0aada10a.chunk.css.map",
-    "static/js/2.1eae0fa0.chunk.js.LICENSE.txt": "/open-architecture/static/js/2.1eae0fa0.chunk.js.LICENSE.txt",
-    "static/media/earthrise_over_moon.jpg": "/open-architecture/static/media/earthrise_over_moon.1551ee57.jpg",
-    "static/media/lunar_surface.png": "/open-architecture/static/media/lunar_surface.d27b5d52.png",
-    "static/media/moon_background.png": "/open-architecture/static/media/moon_background.ffc118b5.png"
+    "main.css": "/static/css/main.29daa3c4.chunk.css",
+    "main.js": "/static/js/main.9cc83954.chunk.js",
+    "main.js.map": "/static/js/main.9cc83954.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2d371e61.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2d371e61.js.map",
+    "static/js/2.183a8e8d.chunk.js": "/static/js/2.183a8e8d.chunk.js",
+    "static/js/2.183a8e8d.chunk.js.map": "/static/js/2.183a8e8d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.28513a1376c4fba00c7bee1d3686210c.js": "/precache-manifest.28513a1376c4fba00c7bee1d3686210c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.29daa3c4.chunk.css.map": "/static/css/main.29daa3c4.chunk.css.map",
+    "static/js/2.183a8e8d.chunk.js.LICENSE.txt": "/static/js/2.183a8e8d.chunk.js.LICENSE.txt",
+    "static/media/earthrise_over_moon.jpg": "/static/media/earthrise_over_moon.1551ee57.jpg",
+    "static/media/lunar_surface.png": "/static/media/lunar_surface.d27b5d52.png",
+    "static/media/moon_background.png": "/static/media/moon_background.ffc118b5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.be03d244.js",
-    "static/js/2.1eae0fa0.chunk.js",
-    "static/css/main.0aada10a.chunk.css",
-    "static/js/main.12eb7638.chunk.js"
+    "static/js/runtime-main.2d371e61.js",
+    "static/js/2.183a8e8d.chunk.js",
+    "static/css/main.29daa3c4.chunk.css",
+    "static/js/main.9cc83954.chunk.js"
   ]
 }
