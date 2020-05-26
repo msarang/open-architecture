@@ -6,16 +6,17 @@ import {Link} from 'react-router-dom';
 
 const Styles = styled.div`
 .container-fluid {
-    background-color: black; 
+    background-color: #F2F2F2; 
+    position: relative;
     padding-top: 50px;
+    
 }
 
 .col {
-    background-color: rgba(30, 30, 30, 1);
+    background-color: white;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .row {
@@ -28,16 +29,17 @@ const Styles = styled.div`
 `;
 
 const ProjectBody = styled.p `
-    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: black;
     text-align: left;
-    color: rgba(200, 200, 200, 1);
+    padding-right: 100px;
+    font-size: 2em;
 }`
 
 const Heading = styled.h2 `
-    font-family: 'Lato', sans-serif, 300;    
-    font-size: 60px;
-    color: white;
-    padding-bottom: 20px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 6em;
 }`
 
 const HeadingTwo = styled.h2 `
@@ -49,7 +51,7 @@ const HeadingTwo = styled.h2 `
 }`
 
 const Highlight = styled.p `
-    background: rgba(255,255,255, 0.1);
+    background: rgba(100,0,255, 0.1);
     display: inline;
 
 }`

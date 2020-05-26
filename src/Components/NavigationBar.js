@@ -7,6 +7,7 @@ import {HashLink as AnotherLink } from 'react-router-hash-link';
 const Styles = styled.div`
     .navbar {
         background-color: white;
+        position: sticky;
     }
 
 `;

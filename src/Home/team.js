@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
 .container-fluid {
-    background-color: #F2F2F2;
+    background-color: white;
     color: black;
     padding-top: 5%;
     padding-bottom: 10% ;
@@ -33,10 +33,6 @@ const Styles = styled.div`
 
 .col h2 {
     text-align: initial;
-}
-
-.image {
-
 }
 
 `;
