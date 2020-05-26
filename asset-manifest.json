@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.29daa3c4.chunk.css",
-    "main.js": "/static/js/main.9cc83954.chunk.js",
-    "main.js.map": "/static/js/main.9cc83954.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2d371e61.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2d371e61.js.map",
-    "static/js/2.183a8e8d.chunk.js": "/static/js/2.183a8e8d.chunk.js",
-    "static/js/2.183a8e8d.chunk.js.map": "/static/js/2.183a8e8d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.28513a1376c4fba00c7bee1d3686210c.js": "/precache-manifest.28513a1376c4fba00c7bee1d3686210c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.29daa3c4.chunk.css.map": "/static/css/main.29daa3c4.chunk.css.map",
-    "static/js/2.183a8e8d.chunk.js.LICENSE.txt": "/static/js/2.183a8e8d.chunk.js.LICENSE.txt",
-    "static/media/earthrise_over_moon.jpg": "/static/media/earthrise_over_moon.1551ee57.jpg",
-    "static/media/lunar_surface.png": "/static/media/lunar_surface.d27b5d52.png",
-    "static/media/moon_background.png": "/static/media/moon_background.ffc118b5.png"
+    "main.css": "/loa.mit.edu/static/css/main.29daa3c4.chunk.css",
+    "main.js": "/loa.mit.edu/static/js/main.3336ce3c.chunk.js",
+    "main.js.map": "/loa.mit.edu/static/js/main.3336ce3c.chunk.js.map",
+    "runtime-main.js": "/loa.mit.edu/static/js/runtime-main.a0cc41bd.js",
+    "runtime-main.js.map": "/loa.mit.edu/static/js/runtime-main.a0cc41bd.js.map",
+    "static/js/2.67d2f95d.chunk.js": "/loa.mit.edu/static/js/2.67d2f95d.chunk.js",
+    "static/js/2.67d2f95d.chunk.js.map": "/loa.mit.edu/static/js/2.67d2f95d.chunk.js.map",
+    "index.html": "/loa.mit.edu/index.html",
+    "precache-manifest.17e332e8dde229f874679dd7d9f6d44f.js": "/loa.mit.edu/precache-manifest.17e332e8dde229f874679dd7d9f6d44f.js",
+    "service-worker.js": "/loa.mit.edu/service-worker.js",
+    "static/css/main.29daa3c4.chunk.css.map": "/loa.mit.edu/static/css/main.29daa3c4.chunk.css.map",
+    "static/js/2.67d2f95d.chunk.js.LICENSE.txt": "/loa.mit.edu/static/js/2.67d2f95d.chunk.js.LICENSE.txt",
+    "static/media/earthrise_over_moon.jpg": "/loa.mit.edu/static/media/earthrise_over_moon.1551ee57.jpg",
+    "static/media/lunar_surface.png": "/loa.mit.edu/static/media/lunar_surface.d27b5d52.png",
+    "static/media/moon_background.png": "/loa.mit.edu/static/media/moon_background.ffc118b5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d371e61.js",
-    "static/js/2.183a8e8d.chunk.js",
+    "static/js/runtime-main.a0cc41bd.js",
+    "static/js/2.67d2f95d.chunk.js",
     "static/css/main.29daa3c4.chunk.css",
-    "static/js/main.9cc83954.chunk.js"
+    "static/js/main.3336ce3c.chunk.js"
   ]
 }
