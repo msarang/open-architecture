@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 const Styles = styled.div`
 
 .container-fluid {
-    background-color: #F2F2F2;
-    color: black;
+    background-color:  #422793;
+    color: white;
     padding-top: 40px;
     padding-bottom:0 ;
     padding-left: 5% ;
@@ -33,17 +33,17 @@ const Styles = styled.div`
 `;
 
 const Title = styled.h1`
-    color: black;
-    font-family: 'Lato', sans-serif;
-    font-size: 6em;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 5em;
 
 `
 const Paragraph = styled.p`
-    font-family: 'Lato', sans-serif;
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
     text-align: left;
     padding-right: 100px;
-    font-size: 2em;
+    font-size: 1em;
 `
 
 export const Database = () => (
@@ -54,17 +54,15 @@ export const Database = () => (
                 
                 This database is incomplete. You can help by <Link to="./Contribute">submitting missions,</Link> or <Link to="./Contribute">updating records</Link> with information regarding payloads, technologies, goals, objectives, funding, and more.
                 <br></br>
-                Missions with more complete data are being populated into the <Link to="./missions">Missions Database.</Link>
+                Missions with more complete data are being populated into the <Link to="./missions">Missions Database.</Link></Paragraph>
             
-            </Paragraph></Row>
-        </Container>
-        <Container fluid>
-                    <Iframe url = "https://airtable.com/embed/shrOGLTaTrTsP1auC?backgroundColor=gray&layout=card&viewControls=on" 
+                <Iframe url = "https://airtable.com/embed/shrOGLTaTrTsP1auC?backgroundColor=gray&layout=card&viewControls=on" 
                     marginheight = "100px"
                     marginWidth = "100px"
                     width = "100%"
                     height = "1000"
                     frameBorder = "10px" />
+            </Row>
         </Container>
     </Styles>
 )

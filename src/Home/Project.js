@@ -8,22 +8,21 @@ const Styles = styled.div`
 .container-fluid {
     background-color: #F2F2F2; 
     position: relative;
-    padding-top: 50px;
-    
+    padding-top: 10%;
 }
 
 .col {
     background-color: white;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 90%;
 }
 
 .row {
-    text-align: left;
     padding-bottom: 50px;
-    padding-right: 100px;
-    padding-left: 100px;
+    justify-content: center;
 }
 
 `;
@@ -32,20 +31,19 @@ const ProjectBody = styled.p `
     font-family: 'Lato', sans-serif;
     color: black;
     text-align: left;
-    padding-right: 100px;
-    font-size: 2em;
+    font-size: 20px;
 }`
 
 const Heading = styled.h2 `
     color: black;
     font-family: 'Lato', sans-serif;
-    font-size: 6em;
+    font-size: 50px;
 }`
 
 const HeadingTwo = styled.h2 `
     font-family: 'Lato', sans-serif;    
     font-size: 60px;
-    color: white;
+    color: black;
     padding-bottom: 20px;
     text-align: center;
 }`

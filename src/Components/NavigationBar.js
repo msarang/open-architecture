@@ -1,48 +1,75 @@
 import React from 'react';
-import {Nav, Navbar, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import {HashLink as AnotherLink } from 'react-router-hash-link';
+import OLF from "./OLF.png";
+import SEI from "./SEI.png";
 
-const Styles = styled.div`
-    .navbar {
-        background-color: white;
-        position: sticky;
-    }
-
+const Container = styled.header`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    background-color: #422793;
+    align-content: center;
 `;
 
-const StyledLink = styled(Link)`
+const Logos = styled.div`
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-self: flex-start;
+`;
+
+const SEIlogo = styled.img`
+    display: flex;
+    width: 150px;
+    height: 70px;
+`;
+const OLFlogo = styled.img`
+    display: flex;
+    width: 240px;
+    height: 70px;
+`;
+
+const Ul = styled.ul`
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+`
+const Li = styled(Link)`
+    padding: 1rem;
+    font-family: 'Roboto Mono', monospace;
     color: white;
+    font-decoration: none;
 `;
+
+const LiTwo = styled(AnotherLink)`
+    padding: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-decoration: none;
+`;
+
 
 
 export const NavigationBar = () => (
-    <Styles>
-    <Navbar fixed="top" expand="lg">
-        <Nav className='mr-auto'>
-        <Navbar.Brand><Link to="/">Lunar Open Architecture (LOA)</Link></Navbar.Brand>
-            <Nav.Item>
-                <Nav.Link>
-                <Link to="./Database">Full Database</Link>
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link>
-                <Link to="./missions">Missions Database</Link>
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link>
-                <AnotherLink to="./#Team">About</AnotherLink>
-                </Nav.Link>
-            </Nav.Item>
-        </Nav>
-        <Nav>
-                <Nav.Link>
-                    <StyledLink to="./Contribute"> <Button>Contribute to the Database</Button></StyledLink>
-                </Nav.Link>
-        </Nav>
-    </Navbar>
-</Styles>
+
+    <Container>
+            <Link to ="/">
+                <Logos>
+                    <SEIlogo src={SEI} />
+                    <OLFlogo src={OLF} />
+                </Logos> 
+            </Link>
+            <Ul>
+                <LiTwo to="./#About">About the Project</LiTwo>
+                <Li to="./Database">Database</Li>
+                <Li to="./Contribute"><b>Contribute</b></Li>
+                
+            </Ul>
+    </Container>
 )

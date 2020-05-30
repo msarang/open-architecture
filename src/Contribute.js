@@ -12,7 +12,7 @@ const Styles = styled.div`
 
 export const Contribute = () => (
 <Styles>
-    <Container>
+    <Container fluid>
         <Tabs defaultActiveKey="newmission" id="uncontrolled-tab-example">
             <Tab eventKey="newmission" title="Submit a New Mission">
                 <Iframe url = "https://airtable.com/embed/shr3w3GwsY2vTYOw2?backgroundColor=gray"

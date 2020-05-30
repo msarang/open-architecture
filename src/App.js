@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
-import {Home} from './Home/Home';
+import Home from './Home';
 import {Database} from './Database';
 import {Contribute} from './Contribute';
 import {Missions} from './missions';
