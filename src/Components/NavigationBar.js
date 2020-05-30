@@ -25,13 +25,13 @@ const Logos = styled.div`
 
 const SEIlogo = styled.img`
     display: flex;
-    width: 150px;
-    height: 70px;
+    width: 140px;
+    height: 60px;
 `;
 const OLFlogo = styled.img`
     display: flex;
-    width: 240px;
-    height: 70px;
+    width: 230px;
+    height: 60px;
 `;
 
 const Ul = styled.ul`
