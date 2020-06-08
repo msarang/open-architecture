@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb152913288195b31cf38c2abf3cb95f",
+    "revision": "d248f9efd03b4be6f1d143e9ced67042",
     "url": "/index.html"
   },
   {
-    "revision": "9a333c954186ee6c24e1",
+    "revision": "33211d25ffa295f410d9",
     "url": "/static/css/main.29daa3c4.chunk.css"
   },
   {
-    "revision": "f43417db70f505264573",
-    "url": "/static/js/2.af87c1c4.chunk.js"
+    "revision": "929cca4b88303713a1a5",
+    "url": "/static/js/2.75015f34.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.af87c1c4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.75015f34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a333c954186ee6c24e1",
-    "url": "/static/js/main.fd11be75.chunk.js"
+    "revision": "33211d25ffa295f410d9",
+    "url": "/static/js/main.930ecea6.chunk.js"
   },
   {
     "revision": "703ffddfbc5b88f66e66",
     "url": "/static/js/runtime-main.2d371e61.js"
+  },
+  {
+    "revision": "7c673b4721d91c370c2a32a7f9afe345",
+    "url": "/static/media/MIT-Logo-cut.7c673b47.png"
   },
   {
     "revision": "5f62ad5228d625306f7848987d243c71",
