@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import {HashLink as AnotherLink } from 'react-router-hash-link';
 import OLF from "./OLF.png";
 import SEI from "./SEI.png";
+import MIT from "./MIT-Logo-cut.png";
 
 const Container = styled.header`
     display: flex;
@@ -25,13 +26,20 @@ const Logos = styled.div`
 
 const SEIlogo = styled.img`
     display: flex;
-    width: 140px;
-    height: 65px;
+    width: 107px;
+    height: 50px;
 `;
 const OLFlogo = styled.img`
     display: flex;
-    width: 230px;
-    height: 60px;
+    width: 176px;
+    height: 46px;
+`;
+const MITlogo = styled.img`
+    display: flex;
+    padding-top:10px;
+    padding-left: 10px;
+    width: 78px;
+    height: 46px;
 `;
 
 const Ul = styled.ul`
@@ -69,6 +77,7 @@ export const NavigationBar = () => (
     <Container>
             <Link to ="/">
                 <Logos>
+                    <MITlogo src={MIT} />
                     <SEIlogo src={SEI} />
                     <OLFlogo src={OLF} />
                 </Logos> 
