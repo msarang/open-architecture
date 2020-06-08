@@ -6,11 +6,12 @@ import {Database} from './Database';
 import {Contribute} from './Contribute';
 import {Missions} from './missions';
 import { NavigationBar } from './Components/NavigationBar';
+import { Container } from 'react-bootstrap';
+
 
 class App extends Component {
  render() {
   return (
-    <React.Fragment>
       <HashRouter basename="/">
         <NavigationBar />
           <Route exact path="/" component={Home}/>
@@ -18,7 +19,6 @@ class App extends Component {
           <Route path="/Contribute" component={Contribute} />
           <Route path="/missions" component={Missions} />
       </HashRouter> 
-    </React.Fragment>
   );
 }
 }

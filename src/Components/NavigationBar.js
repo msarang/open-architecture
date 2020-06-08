@@ -12,7 +12,7 @@ const Container = styled.header`
     flex-direction: row;
     width: 100vw;
     flex-wrap: wrap;
-    background-color: #422793;
+    background-color: #0942A9;
     align-content: center;
 `;
 
@@ -26,7 +26,7 @@ const Logos = styled.div`
 const SEIlogo = styled.img`
     display: flex;
     width: 140px;
-    height: 60px;
+    height: 65px;
 `;
 const OLFlogo = styled.img`
     display: flex;
@@ -45,6 +45,10 @@ const Li = styled(Link)`
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-decoration: none;
+
+    &:hover {
+        color: yellow;
+    }
 `;
 
 const LiTwo = styled(AnotherLink)`
@@ -52,6 +56,10 @@ const LiTwo = styled(AnotherLink)`
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-decoration: none;
+
+    &:hover {
+        color: yellow;
+    }
 `;
 
 
@@ -69,7 +77,6 @@ export const NavigationBar = () => (
                 <LiTwo to="./#About">About the Project</LiTwo>
                 <Li to="./Database">Database</Li>
                 <Li to="./Contribute"><b>Contribute</b></Li>
-                
             </Ul>
     </Container>
 )

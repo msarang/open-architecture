@@ -5,31 +5,21 @@ import Moon from "./Moon.png";
 import {About} from './About';
 import { Link } from 'react-router-dom';
 
-const BigContainer = styled.div`
+const Container = styled.div`
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    height: 100vh;  
+    width: 100%;
     justify-content: center;
     align-items; flex-end;
 `;
 
-const Missions = styled.div`
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  background-color: #AF9EAF;
-  flex-direction: column;
-  align-items: center;
 
-`
-
-const ImageContainer = styled.div`
+const BackgroundContainer = styled.div`
     display: flex;
     flex-grow: 1;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(180.36deg, #422793 29.16%, #AF9EAF 99.61%);
+    background: linear-gradient(180.36deg, #0942A9 27.86%, #7A91BB 99.61%);;
     justify-content: center;
 `;
 
@@ -46,6 +36,10 @@ const Title = styled.h1`
   padding-left: 20vw;
   padding-right: 20vw;
   color: white;
+
+  @media (max-width: 700px) {
+    font-size: 35px;
+  }
 `
 
 const LastTitle = styled.h1`
@@ -54,9 +48,13 @@ const LastTitle = styled.h1`
   text-align: center;
   padding-left: 20vw;
   padding-right: 20vw;
-  color: white;
+  color: #0942A9;
   margin-top: 2%;
   margin-bottom: 2%;
+
+  @media (max-width: 700px) {
+    font-size: 35px;
+  }
 `
 const SubTitle = styled.p`
   font-family: 'Montserrat', sans-serif;
@@ -65,9 +63,14 @@ const SubTitle = styled.p`
   padding-left: 20vw;
   padding-right: 20vw;
   color: white;
+
+  @media (max-width: 700px) {
+    font-size: 15px;
+  }
 `
 const ParallaxLayerFlex = styled(ParallaxLayer)`
   display: flex;
+
 `
 const FinalText = styled.div`
   display: flex;
@@ -75,24 +78,56 @@ const FinalText = styled.div`
   width: 100vw;
   align-self: center;
   flex-direction: row;
-  margin-right: 100px;
-  margin-left: 100px;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+
 
 `
+
+const LOAText = styled.p`
+  font-size: 30px;
+  font-family: 'Palanquin', sans-serif;
+  color: white;
+  align-self: center;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  @media (max-width: 700px) {
+    font-size: 20px;
+  }
+`
+
+const LOATextwhite = styled.p`
+  font-size: 30px;
+  font-family: 'Palanquin', sans-serif;
+  color: white;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%,#0942A9 50%);
+  display: inline;
+
+  @media (max-width: 700px) {
+    font-size: 20px;
+  }
+`
+
+
 const Buttons = styled.div`
   display: flex;
   flex-grow: 1;
   align-self: center;
+
+  
 
 `
 
 const StyledButton = styled(Link)`
   background-color: white;
   font-family: 'Roboto Mono', monospace;
-  color: #422793;
+  color: #0942A9;
   font-decoration: none;
   border-style: solid;
-  border-color: #422793;
+  border-color: #0942A9;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 20px;
@@ -105,25 +140,27 @@ const StyledButton = styled(Link)`
   width: 200px;
 
     &:hover {
-      background-color: #422793;
+      background-color: #0942A9;
       color: white;
+    }
+
+    @media (max-width: 700px) {
+      width: 150px;
     }
 `
 
-const LOAText = styled.p`
-  font-size: 40px;
-  font-family: 'Palanquin', sans-serif;
-  color: white;
-  align-self: center;
-  padding-right: 250px;
+const Missions = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+
 `
-const LOATextwhite = styled.p`
-  font-size: 40px;
-  font-family: 'Palanquin', sans-serif;
-  color: white;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #422793 50%);
-  display: inline;
-`
+
 
 
 export default function Home() {
@@ -131,10 +168,10 @@ export default function Home() {
   return (
     <React.Fragment>
       
-    <BigContainer>
-      <ImageContainer>    
+    <Container>
+      <BackgroundContainer>    
         <Background src={Moon} />
-      </ImageContainer>
+      </BackgroundContainer>
 
       <Parallax pages={2.4} ref={ref => parallax = ref}>
           <ParallaxLayer offset={0.1} speed={10}>
@@ -173,11 +210,11 @@ export default function Home() {
 
           </ParallaxLayerFlex>
       </Parallax>
-    </BigContainer>
+    </Container>
     
     <Missions>
     <LastTitle>Current Missions in the Database</LastTitle>
-      <iframe src="https://embed.kumu.io/cd8f6c712f6186539eff6c55c47a91e0" width="940" height="600" frameborder="0"></iframe>
+      <iframe src="https://embed.kumu.io/cd8f6c712f6186539eff6c55c47a91e0" width="100%" height="600" frameborder="0"></iframe>
     </Missions>
     <a id="About"><About /></a>
     </React.Fragment>

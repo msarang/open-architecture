@@ -7,8 +7,7 @@ import { Link } from 'react-router-dom';
 const Styles = styled.div`
 
 .container-fluid {
-    background-color:  #422793;
-    color: white;
+    background-color:  white;
     padding-top: 40px;
     padding-bottom:0 ;
     padding-left: 5% ;
@@ -33,14 +32,14 @@ const Styles = styled.div`
 `;
 
 const Title = styled.h1`
-    color: white;
+    color: black;
     font-family: 'Palanquin', sans-serif;
     font-size: 5em;
 
 `
 const Paragraph = styled.p`
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: black;
     text-align: left;
     padding-right: 100px;
     font-size: 1em;
@@ -56,7 +55,7 @@ export const Database = () => (
                 <br></br>
                 Missions with more complete data are being populated into the <Link to="./missions">Missions Database.</Link></Paragraph>
             
-                <Iframe url = "https://airtable.com/embed/shrOGLTaTrTsP1auC?backgroundColor=gray&layout=card&viewControls=on" 
+                <Iframe url = "https://airtable.com/embed/shr7FyyIw7SRaJu7u?backgroundColor=gray&viewControls=on" 
                     marginheight = "100px"
                     marginWidth = "100px"
                     width = "100%"

@@ -40,7 +40,7 @@ const TextThree = styled.p`
     font-size: 20px;
     font-family: 'Palanquin', sans-serif;
     color: black;
-    padding-top: 0;
+    padding-top: 40px;
 
 `
 const Paragraph = styled.p`
@@ -55,20 +55,20 @@ const Paragraph = styled.p`
 const StyledButton = styled.a`
   background-color: white;
   font-family: 'Roboto Mono', monospace;
-  color: #422793;
+  color:#0942A9;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
   border-style: solid;
-  border-color: #422793;
+  border-color: #0942A9;
   border-width: 2px;
   border-radius: 10px;
   width: max-content;
   text-decoration: none;
 
     &:hover {
-      background-color: #422793;
+      background-color: #0942A9;
       color: white;
 
     }
