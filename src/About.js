@@ -16,6 +16,7 @@ const Container = styled.div`
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 40px;
+
 `;
 
 const Text = styled.p`
@@ -23,6 +24,10 @@ const Text = styled.p`
     font-family: 'Palanquin', sans-serif;
     color: white;
     flex-grow: 1;
+
+    @media (max-width: 700px) {
+        font-size: 15px;
+      }
 
 `
 
@@ -39,7 +44,7 @@ const TextThree = styled.p`
 
 `
 const Paragraph = styled.p`
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   text-align: left;
   color: white;

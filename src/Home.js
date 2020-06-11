@@ -14,7 +14,6 @@ const Container = styled.div`
     align-items; flex-end;
 `;
 
-
 const BackgroundContainer = styled.div`
     display: flex;
     flex-grow: 1;
@@ -89,7 +88,7 @@ const LOAText = styled.p`
   padding-right: 20%;
   text-align: center;
   @media (max-width: 700px) {
-    font-size: 20px;
+    font-size: 15px;
   }
 `
 
@@ -101,7 +100,7 @@ const LOATextwhite = styled.p`
   display: inline;
 
   @media (max-width: 700px) {
-    font-size: 20px;
+    font-size: 15px;
   }
 `
 
@@ -136,6 +135,7 @@ const StyledButton = styled(Link)`
 
     @media (max-width: 700px) {
       width: 150px;
+      font-size: 10px;
     }
 `
 const StyledButtonTwo = styled(AnotherLink)`
@@ -163,6 +163,7 @@ const StyledButtonTwo = styled(AnotherLink)`
 
     @media (max-width: 700px) {
       width: 150px;
+      font-size: 10px;
     }
 `
 const Missions = styled.div`
@@ -201,8 +202,6 @@ export default function Home() {
           </ParallaxLayer>  
 
           <ParallaxLayer offset={1.4} speed={2}>  
-
-        
             <LOAText>
                 The Lunar Open Architecture (LOA) is the first <LOATextwhite>dynamic, living, and open roadmap</LOATextwhite> for lunar exploration, powered by an<LOATextwhite> evolving, crowd-sourced, database</LOATextwhite>  that
                 captures and coalesces current and future <LOATextwhite>visions for 
@@ -212,7 +211,6 @@ export default function Home() {
 
           <ParallaxLayerFlex offset={1.3} speed={0}>
               <FinalText>
-
               <Buttons>
                 <StyledButton to="./Database">Explore the Database</StyledButton>
                 <StyledButtonTwo to="./#Missions">Explore Missions in the Database</StyledButtonTwo>
