@@ -4,62 +4,56 @@ import styled from 'styled-components';
 const BigContainer = styled.div`
     display: flex;
     flex-direction: row;
-    height: 100vh;
     width: 100vw;
+    align-items: space-evenly;
 `;
 
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 1000px;
-    background-color: white;
-    align-items: flex;
+    background-color: black;
     overflow-y: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
 `;
 
 const Text = styled.p`
     font-size: 20px;
     font-family: 'Palanquin', sans-serif;
-    color: black;
+    color: white;
     flex-grow: 1;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 10%;
 
 `
 
 const TextTwo = styled.p`
     font-size: 20px;
     font-family: 'Palanquin', sans-serif;
-    color: black;
-    padding-top: 10%;
+    color: white;
 
 `
 const TextThree = styled.p`
     font-size: 20px;
     font-family: 'Palanquin', sans-serif;
-    color: black;
-    padding-top: 40px;
+    color: white;
 
 `
 const Paragraph = styled.p`
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-align: left;
-  color: black;
-  padding-right: 30%;
-  padding-bottom: 5%;
+  color: white;
 `
 
 const StyledButton = styled.a`
-  background-color: white;
+  background-color:  #0942A9;
   font-family: 'Roboto Mono', monospace;
-  color:#0942A9;
+  color:white;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 50px;
   border-style: solid;
   border-color: #0942A9;
   border-width: 2px;
@@ -68,8 +62,8 @@ const StyledButton = styled.a`
   text-decoration: none;
 
     &:hover {
-      background-color: #0942A9;
-      color: white;
+      background-color:white ;
+      color: #0942A9;
 
     }
 
@@ -77,10 +71,12 @@ const StyledButton = styled.a`
 
 
 export const About = () => (
-    <BigContainer>
+<BigContainer>
+
     <Container>
         <Text><b>This project is a collaboration between the MIT Media Lab’s Space Exploration Initiative and the Open Lunar Foundation</b></Text>
     </Container>
+
     <Container>
         <TextTwo>MIT Media Lab Space Exploration Initiative</TextTwo>
         <Paragraph>
@@ -99,6 +95,7 @@ export const About = () => (
         </Paragraph>
         <StyledButton href="https://www.openlunar.org/">Learn More</StyledButton>
     </Container>
+
 </BigContainer>
     
 );

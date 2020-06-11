@@ -3,6 +3,7 @@ import {Container, Row, Card, Button, Col, Image} from 'react-bootstrap';
 import styled from 'styled-components';
 import Iframe from 'react-iframe';
 import {Link} from 'react-router-dom';
+import {team} from './team';
 
 const Styles = styled.div`
 .container-fluid {

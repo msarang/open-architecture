@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Moon from "./Moon.png";
 import {About} from './About';
 import { Link } from 'react-router-dom';
+import {HashLink as AnotherLink } from 'react-router-hash-link';
 
 const Container = styled.div`
     display: flex;
@@ -24,17 +25,19 @@ const BackgroundContainer = styled.div`
 `;
 
 const Background = styled.img`
-  max-height: 30vh;
+  max-height: 40vh;
   align-self: center;
   opacity: 0.7;
 `;
 
+
 const Title = styled.h1`
-  font-family: 'Palanquin', sans-serif;
-  font-size: 50px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 45px;
   text-align: center;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 30px;
   color: white;
 
   @media (max-width: 700px) {
@@ -43,13 +46,10 @@ const Title = styled.h1`
 `
 
 const LastTitle = styled.h1`
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
   font-size: 50px;
   text-align: center;
-  padding-left: 20vw;
-  padding-right: 20vw;
-  color: #0942A9;
-  margin-top: 2%;
+  color: black;
   margin-bottom: 2%;
 
   @media (max-width: 700px) {
@@ -57,7 +57,7 @@ const LastTitle = styled.h1`
   }
 `
 const SubTitle = styled.p`
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-align: center;
   padding-left: 20vw;
@@ -77,23 +77,17 @@ const FinalText = styled.div`
   height: 100vh;
   width: 100vw;
   align-self: center;
-  flex-direction: row;
-
-  @media (max-width: 700px) {
-    flex-direction: column;
-  }
-
-
+  flex-direction: column;
 `
 
 const LOAText = styled.p`
   font-size: 30px;
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   align-self: center;
-  padding-left: 10%;
-  padding-right: 10%;
-
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
   @media (max-width: 700px) {
     font-size: 20px;
   }
@@ -101,9 +95,9 @@ const LOAText = styled.p`
 
 const LOATextwhite = styled.p`
   font-size: 30px;
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%,#0942A9 50%);
+  background: #0942A9;
   display: inline;
 
   @media (max-width: 700px) {
@@ -111,14 +105,10 @@ const LOATextwhite = styled.p`
   }
 `
 
-
 const Buttons = styled.div`
   display: flex;
   flex-grow: 1;
   align-self: center;
-
-  
-
 `
 
 const StyledButton = styled(Link)`
@@ -148,7 +138,33 @@ const StyledButton = styled(Link)`
       width: 150px;
     }
 `
+const StyledButtonTwo = styled(AnotherLink)`
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  color: #0942A9;
+  font-decoration: none;
+  border-style: solid;
+  border-color: #0942A9;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: max-content;
+  border-radius: 10px;
+  align-self: center;
+  margin-right: 20px;
+  text-decoration: none;
+  width: 200px;
 
+    &:hover {
+      background-color: #0942A9;
+      color: white;
+    }
+
+    @media (max-width: 700px) {
+      width: 150px;
+    }
+`
 const Missions = styled.div`
   width: 100vw;
   height: 100vh;
@@ -162,7 +178,6 @@ const Missions = styled.div`
 `
 
 
-
 export default function Home() {
   let parallax;
   return (
@@ -173,38 +188,34 @@ export default function Home() {
         <Background src={Moon} />
       </BackgroundContainer>
 
-      <Parallax pages={2.4} ref={ref => parallax = ref}>
-          <ParallaxLayer offset={0.1} speed={10}>
+      <Parallax pages={2} ref={ref => parallax = ref}>
+          <ParallaxLayer offset={0.1} speed={1}>
             <Title>Welcome to the Lunar Open Architecture Project</Title>
+            <SubTitle>We believe the future of lunar exploration should be open, shared, and collaborative.</SubTitle>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={0.7} speed={2}>
-              <SubTitle>We believe the future of lunar exploration should be open, shared, and collaborative.</SubTitle>
-          </ParallaxLayer>
-          
-          <ParallaxLayer offset={0.99} speed={2}>
-            <Title>Making a sustainable return to the Moon will require collaboration.</Title>
-          </ParallaxLayer>
+          <ParallaxLayer offset={1.1} speed={0.1}>
 
-          <ParallaxLayer offset={0.99} speed={0.3}>
-            <SubTitle>
-            Unlike during the Apollo era, there are more actors than ever before, 
-            coming from around the world, in the public and private sector, 
-            interested in making a return to the Moon. We’ll need to collaborate to do basic 
-            science and develop essential technologies, while establishing key policies and 
-            figuring out the economics to get there, and stay this time.
-            </SubTitle>
-          </ParallaxLayer>
+            <Title>Making a sustainable return to the Moon will require collaboration</Title>
 
-          <ParallaxLayerFlex offset={1.4} speed={0}>
-              <FinalText>
-                <LOAText>LOA is the first <LOATextwhite>dynamic, living, and open roadmap</LOATextwhite> for lunar exploration, powered by an<LOATextwhite> evolving database</LOATextwhite>  that
+          </ParallaxLayer>  
+
+          <ParallaxLayer offset={1.4} speed={2}>  
+
+        
+            <LOAText>
+                The Lunar Open Architecture (LOA) is the first <LOATextwhite>dynamic, living, and open roadmap</LOATextwhite> for lunar exploration, powered by an<LOATextwhite> evolving, crowd-sourced, database</LOATextwhite>  that
                 captures and coalesces current and future <LOATextwhite>visions for 
-                lunar exploration.</LOATextwhite> 
-                </LOAText>
+                lunar exploration.</LOATextwhite>
+            </LOAText>
+          </ParallaxLayer>
+
+          <ParallaxLayerFlex offset={1.3} speed={0}>
+              <FinalText>
+
               <Buttons>
                 <StyledButton to="./Database">Explore the Database</StyledButton>
-                <StyledButton>Explore the Roadmap</StyledButton>
+                <StyledButtonTwo to="./#Missions">Explore Missions in the Database</StyledButtonTwo>
               </Buttons>
               </FinalText>
 
@@ -213,8 +224,8 @@ export default function Home() {
     </Container>
     
     <Missions>
-    <LastTitle>Current Missions in the Database</LastTitle>
-      <iframe src="https://embed.kumu.io/cd8f6c712f6186539eff6c55c47a91e0" width="100%" height="600" frameborder="0"></iframe>
+    <a id="Missions"><LastTitle>Current Missions in the Database</LastTitle></a>
+      <iframe src="https://embed.kumu.io/cd8f6c712f6186539eff6c55c47a91e0" width="80%" height="600" frameborder="0"></iframe>
     </Missions>
     <a id="About"><About /></a>
     </React.Fragment>
