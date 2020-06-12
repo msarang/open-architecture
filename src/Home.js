@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 import styled from 'styled-components';
-import Moon from "./Group 27.png";
+import Moon from "./LOA_moon_transparent.png";
 import {About} from './About';
 import { Link } from 'react-router-dom';
 
@@ -23,9 +23,8 @@ const BackgroundContainer = styled.div`
 `;
 
 const Background = styled.img`
-  max-height: 35vh;
+  max-height: 50vh;
   align-self: center;
-  opacity: 0.7;
 `;
 
 const Title = styled.h1`
