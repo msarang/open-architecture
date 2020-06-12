@@ -2,9 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import {HashLink as AnotherLink } from 'react-router-hash-link';
-import OLF from "./OLF.png";
-import SEI from "./SEI.png";
-import MIT from "./MIT-Logo-cut.png";
 
 const Container = styled.header`
     display: flex;
@@ -17,31 +14,6 @@ const Container = styled.header`
     align-content: center;
 `;
 
-const Logos = styled.div`
-    display: flex;
-    flex-grow: 1;
-    flex-direction: row;
-    align-self: flex-start;
-`;
-
-const SEIlogo = styled.img`
-    display: flex;
-    width: 107px;
-    height: 50px;
-`;
-const OLFlogo = styled.img`
-    display: flex;
-    width: 176px;
-    height: 46px;
-`;
-const MITlogo = styled.img`
-    display: flex;
-    padding-top:10px;
-    padding-left: 10px;
-    width: 78px;
-    height: 46px;
-`;
-
 const Ul = styled.ul`
     display: flex;
     margin: 0;
@@ -51,22 +23,21 @@ const Ul = styled.ul`
 const Li = styled(Link)`
     padding: 1rem;
     font-family: 'Roboto Mono', monospace;
-    color: white;
-    font-decoration: none;
+    color: 	rgb(255, 255, 255, 0.7);
 
     &:hover {
-        color: yellow;
+        color: rgb(255, 255, 255);
     }
 `;
 
 const LiTwo = styled(AnotherLink)`
     padding: 1rem;
     font-family: 'Roboto Mono', monospace;
-    color: white;
+    color: 	rgb(255, 255, 255, 0.7);
     font-decoration: none;
 
     &:hover {
-        color: yellow;
+        color: rgb(255, 255, 255);
     }
 `;
 
@@ -75,17 +46,13 @@ const LiTwo = styled(AnotherLink)`
 export const NavigationBar = () => (
 
     <Container>
-            <Link to ="/">
-                <Logos>
-                    <MITlogo src={MIT} />
-                    <SEIlogo src={SEI} />
-                    <OLFlogo src={OLF} />
-                </Logos> 
-            </Link>
+            <Li to ="/">
+                Lunar Open Architecture (LOA)
+            </Li>
             <Ul>
-                <LiTwo to="./#About">About the Project</LiTwo>
+                <LiTwo to="./#About">About</LiTwo>
                 <Li to="./Database">Database</Li>
-                <Li to="./Contribute"><b>Contribute</b></Li>
+                <Li to="./Contribute">Contribute</Li>
             </Ul>
     </Container>
 )

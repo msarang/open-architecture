@@ -1,18 +1,65 @@
 import React from 'react';
 import Iframe from 'react-iframe'
-import { Tabs, Tab, Container } from 'react-bootstrap';
+import { Tabs, Tab, Container, Row } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
+    .container-fluid {
+        background-color:  white;
+        padding-top: 40px;
+        padding-bottom:0 ;
+        padding-left: 5% ;
+        padding-right: 10% ;
+        margin-top: 0;
 
-.container {
-    padding-top: 15px;
-}
+    }
+    .row {
+        padding-left: 20px;
+    }
 `;
+
+const Title = styled.h1`
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+    @media (max-width: 700px) {
+    font-size: 35px;
+    }
+    `
+const Paragraph = styled.p`
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: black;
+    padding-right: 100px;
+    padding-bottom: 20px;
+
+    @media (max-width: 700px) {
+    font-size: 15px;
+    }
+`
+
 
 export const Contribute = () => (
 <Styles>
     <Container fluid>
+        <Row>
+        <Title>Help us Build the Future of Lunar Exploration</Title></Row>
+            <Row>
+            <Paragraph>
+                The Lunar Open Architecture is an evolving, open, and crowd-sourced effort. In order to develop a truly
+                comprehensive roadmap of lunar missions, we are soliciting entries from around the world. Please use the forms below
+                to enter a new mission or edit existing missions. When entering new missions, please include a valid source to ensure credibility
+                of the information. We especially encourage entries regarding missions that have been recently announced. 
+                <br></br>
+                <br></br>
+                If you'd like to receive updates about this project, please sign up using the form below.
+            </Paragraph>
+
+            </Row>
         <Tabs defaultActiveKey="newmission" id="uncontrolled-tab-example">
             <Tab eventKey="newmission" title="Submit a New Mission">
                 <Iframe url = "https://airtable.com/embed/shr3w3GwsY2vTYOw2?backgroundColor=gray"

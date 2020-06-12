@@ -1,5 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import OLF from "./OLF.png";
+import SEI from "./SEI.png";
+import MIT from "./MIT-Logo-cut.png";
+
 
 const BigContainer = styled.div`
     display: flex;
@@ -23,7 +27,7 @@ const Text = styled.p`
     font-size: 20px;
     font-family: 'Palanquin', sans-serif;
     color: white;
-    flex-grow: 1;
+    padding-bottom: 30px;
 
     @media (max-width: 700px) {
         font-size: 15px;
@@ -73,6 +77,31 @@ const StyledButton = styled.a`
     }
 
 `
+const Logos = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-around;
+`;
+const MITlogo = styled.img`
+    display: flex;
+    max-width: 100px;
+    height: auto;
+    margin-right: 5px;
+    padding-bottom: 10px;
+`;
+
+const SEIlogo = styled.img`
+    display: flex;
+    max-width: 200px;
+    height: auto;
+    padding-bottom: 10px;
+`;
+const OLFlogo = styled.img`
+    display: flex;
+    max-width: 250px;
+    height: auto;
+`;
 
 
 export const About = () => (
@@ -80,6 +109,12 @@ export const About = () => (
 
     <Container>
         <Text><b>This project is a collaboration between the MIT Media Lab’s Space Exploration Initiative and the Open Lunar Foundation</b></Text>
+        <Logos>
+        <MITlogo src={MIT} />
+        <SEIlogo src={SEI} />
+        <OLFlogo src={OLF} />
+        </Logos>
+    
     </Container>
 
     <Container>

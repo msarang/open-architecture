@@ -28,17 +28,27 @@ const Styles = styled.div`
 `;
 
 const Title = styled.h1`
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 45px;
+    text-align: center;
     color: black;
-    font-family: 'Palanquin', sans-serif;
-    font-size: 5em;
+    margin-top: 20px;
+    padding-bottom: 20px;
 
-`
+    @media (max-width: 700px) {
+    font-size: 35px;
+    }
+    `
 const Paragraph = styled.p`
     font-family: 'Roboto', sans-serif;
+    font-size: 17px;
     color: black;
-    text-align: left;
     padding-right: 100px;
-    font-size: 1em;
+    padding-bottom: 20px;
+
+    @media (max-width: 700px) {
+    font-size: 15px;
+    }
 `
 
 export const Database = () => (
