@@ -1,0 +1,33 @@
+.navigation-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.box-one {
+    flex: 2;
+}
+
+.box-two {
+    flex: 1;
+    min-width: max-content;
+    padding: 10px;
+}
+
+.box-three {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    min-width: max-content;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .navigation-container {flex-direction: column;}
+  }

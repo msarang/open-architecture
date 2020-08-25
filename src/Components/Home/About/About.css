@@ -1,0 +1,28 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: space-evenly;
+    height: 500px;
+    background-color: transparent;
+}
+
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F214D;
+    overflow-y: auto;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+.button-white-two {
+    font-size: 15px;
+    background-color: white;
+    color: #7696DB;
+    width: max-content;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }

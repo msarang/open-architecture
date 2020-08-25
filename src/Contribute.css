@@ -1,0 +1,13 @@
+.container-fluid {
+    background-color:  #1F214D;
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.contribute-container {
+    padding: 100px 80px 50px 80px;
+    border: white;
+    border-width: 100px;
+
+}
