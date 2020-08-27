@@ -5,16 +5,6 @@ import styled from 'styled-components';
 import './Contribute.css';
 
 
-const Paragraph = styled.p`
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    color: white;
-    padding-right: 100px;
-    padding-bottom: 20px;
-
-`
-
-
 export const Contribute = () => (
     <Container fluid>
         <div className="contribute-container">
@@ -29,7 +19,7 @@ export const Contribute = () => (
                 <br></br>
                 If you'd like to receive updates about this project, please sign up using the form below.
             </p>
-            
+
         </div>
 
         <Tabs defaultActiveKey="newmission" id="uncontrolled-tab-example">

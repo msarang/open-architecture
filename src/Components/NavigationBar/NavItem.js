@@ -13,6 +13,7 @@ const NavItem = styled(Link)`
         opacity: 1;
         text-decoration: none;
     }
+
 `;
 
 export default NavItem;

@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <React.Fragment>
     <div className="section-one-container">
-      <MoonBackground />
+    <MoonBackground />
 
 
-      <Parallax pages={1.6} ref={ref => parallax = ref}>
+      <Parallax pages={1.9} ref={ref => parallax = ref}>
           <ParallaxLayer offset={0.1} speed={1}>
             <h1 className="title">We believe the future of lunar exploration should be open, shared, and collaborative.</h1>
           </ParallaxLayer>
@@ -47,12 +47,13 @@ export default function Home() {
 
           </ParallaxLayer>
 
-          <ParallaxLayer offset={1.5} speed={1}>
+          <ParallaxLayer offset={1.3} speed={1}>
+          <a id="About"><About /></a>
 
           </ParallaxLayer>
       </Parallax>
     </div>
-    <a id="About"><About /></a>
+
 </React.Fragment>
   );
 }

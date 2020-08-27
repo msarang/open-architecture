@@ -10,6 +10,10 @@ const Title = styled(Link)`
         color: #1F214D;
         text-decoration: none;
     }
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+      }
 `;
 
 export default Title;

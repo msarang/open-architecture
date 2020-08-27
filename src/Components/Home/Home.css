@@ -9,10 +9,6 @@
     animation-name: moveFromLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-  
-    @media (max-width: 700px) {
-      font-size: 35px;
-    }
 }
 
 .second-title {
@@ -186,11 +182,29 @@
 
 @media only screen and (max-width: 1000px) {
   /* For mobile: */
+  .section-two-container{
+    height: 500px;
+  }
   .first-container {
-    width: 360px;
-    height: 240px;
+    width: 350px;
+    height: 230px;
     margin-bottom: 10px}
   .second-container {
-    width: 330px;
-    height: 200px;}
+    width: 320px;
+    height: 190px;}
+  .title {
+    font-size: 20px;
+  }
+  .second-title{
+    font-size: 20px;
+  }
+  .explainer-text{
+    font-size: 16px;
+  }
+  .explainer-text-two{
+    font-size: 16px;
+  }
+  .section-heading{
+    font-size: 30px;
+  }
 }
