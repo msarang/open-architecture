@@ -48,11 +48,13 @@ export default function Home() {
           </ParallaxLayer>
 
           <ParallaxLayer offset={1.3} speed={1}>
-          <a id="About"><About /></a>
-
+          
           </ParallaxLayer>
       </Parallax>
+
+
     </div>
+    <a id="About"><About /></a>
 
 </React.Fragment>
   );

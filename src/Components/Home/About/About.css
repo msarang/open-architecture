@@ -3,8 +3,11 @@
     flex-direction: row;
     width: 100vw;
     align-items: space-evenly;
-    height: 500px;
+    justify-content: flex-end;
+    height: 100vh;
     background-color: transparent;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 
@@ -18,11 +21,59 @@
     padding-top: 40px;
 }
 
+.column-container {
+    padding: 10px 10px 10px 10px;
+}
+
 .button-white-two {
     font-size: 15px;
     background-color: white;
     color: #7696DB;
     width: max-content;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-around;
+  }
+
+  .sei-logo {
+    display: flex;
+    max-width: 200px;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .olf-logo {
+    display: flex;
+    max-width: 400px;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    /* For mobile: */
+    .about-container{
+      flex-direction: column;
+      height: max-content;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .row-container{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .olf-logo{
+        max-width: 300px;
+    }
+    .column-container {
+        padding: 0px 0px 10px 10px;
+    }
   }

@@ -1,7 +1,6 @@
 import React from 'react';
 import Iframe from 'react-iframe'
 import { Tabs, Tab, Container, Row } from 'react-bootstrap';
-import styled from 'styled-components';
 import './Contribute.css';
 
 

@@ -12,7 +12,7 @@ const BackgroundContainer = styled.div`
 
 const Background = styled.img`
   max-width: 100%;
-  height: 90vh;
+  height: 100vh;
   align-self: top;
   object-fit: contain;
 `;

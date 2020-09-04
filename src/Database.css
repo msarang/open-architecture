@@ -1,0 +1,25 @@
+.roadmap-desktop {
+    height: 100vh;
+    visibility: visible;
+}
+
+.roadmap-mobile {
+    background-color: #1F214D;
+    height: 100vh;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 780px) {
+    /* For mobile: */
+    .roadmap-desktop{
+        visibility: hidden;
+        height: 0px;
+    }
+    .roadmap-mobile{
+        display: flex;
+        visibility: visible;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+  }

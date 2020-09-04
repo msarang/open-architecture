@@ -1,0 +1,16 @@
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F214D;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.explanation {
+
+}
+
+.ul {
+    list-style: none;
+}
