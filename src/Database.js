@@ -5,7 +5,11 @@ import './Database.css';
 export const Database = () => (
     <React.Fragment>
     <div className="roadmap-desktop">
+<<<<<<< HEAD
         <Iframe url = "https://lunar-open-architecture.netlify.app/"
+=======
+        <Iframe url = "https://lunar-open-architecture.netlify.app/?"
+>>>>>>> e2f14c657581bee868b5ed9c9978df81bfc4b5fd
                             marginheight = "100px"
                             marginWidth = "100px"
                             width = "100%"
