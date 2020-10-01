@@ -42,7 +42,8 @@ export const About = () => (
                 vigorously build out the technologies of our sci-fi space future while
                 keeping our innovations and team as open and
                 accessible as possible. We’re democratizing access to space exploration in
-                the context of our blue sky goal — to realize an inclusive, impactful Starfleet Academy.
+                the context of our blue sky goal — to realize an inclusive, impactful Starfleet Academy. LOA development is led by 
+                Lunar Exploration Projects Lead <a href="https://www.media.mit.edu/people/msarang/overview/">Mehak Sarang</a>.
             </Paragraph>
             <a href="https://www.media.mit.edu/groups/space-exploration/overview/" className="button button-white-two">LEARN MORE</a>
         </div>
