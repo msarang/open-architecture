@@ -42,8 +42,22 @@ export default function Home() {
               </p>
 
               <a href="https://www.openlunar.org/library/architecting-our-shared-lunar-future" className="button button-white">READ OUR WHITEPAPER HERE</a>
+              <a href="https://www.openlunar.org/library/lunar-mission-actor-analysis-open-information-architecture-for-international-collaboration" className="button button-white">READ OUR IAC PAPER HERE</a>
+              <br></br>
+              <br></br>
+              <br></br>
 
+              <h2 className="section-heading">Working together towards a shared lunar future</h2>
+              <p className="explainer-text-two">
+                In addition to serving as a database, tracking developments in the space industry and advancements in our understanding of lunar science, we aim to create a tool that will empower individuals
+                to collaborate to achieve shared objectives and goals. LOA will serve as a first step – a place to share visions and goals for future lunar exploration. In an effort to uncover the diversity of 
+                views and tacit knowledge that influences opinions and insights into developments in the space industry, we conducted a survey with senior members of the space industry to get their take on the next year, and decade,
+                in lunar exploration. Explore their insights below.
+              </p>
+
+              <a href="https://msarang.github.io/collective-envisioning/#/" className="button button-white">EXPLORE 2021 IN LUNAR EXPLORATION</a>
             </div>
+           
 
           </ParallaxLayer>
 
