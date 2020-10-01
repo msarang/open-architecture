@@ -14,7 +14,7 @@ export default function Home() {
     <MoonBackground />
 
 
-      <Parallax pages={1.9} ref={ref => parallax = ref}>
+      <Parallax pages={3} ref={ref => parallax = ref}>
           <ParallaxLayer offset={0.1} speed={1}>
             <h1 className="title">We believe the future of lunar exploration should be open, shared, and collaborative.</h1>
           </ParallaxLayer>
