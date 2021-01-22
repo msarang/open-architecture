@@ -1,0 +1,100 @@
+.section-one-block{
+    display: flex;
+    padding-top: 20px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #1F214D;
+    border: none;
+    padding-bottom: 20px;
+}
+.card-header {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+    color: #1F214D;
+    text-align: left;
+    font-size: 40px;
+    border: none;
+}
+
+.card-body {
+    background-color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.list-group-item{
+    font-size: 20px;
+    background-color: #1F214D;;
+    color: white;
+    border-color: grey;
+    border-width: 0px 0px 1px;
+    padding-top: 20px;
+}
+
+.modal-button {
+    color: #91AAE5;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    vertical-align: baseline;
+}
+
+.toggle {
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    text-align: left;
+    border: none;
+    padding-left: 10px;
+}
+
+.toggle:active {
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.toggle:hover {
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.toggle:focus {
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 20px; 
+
+}
+
+.list-group-item {
+    text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+    .card-group {
+        flex-direction: column;
+    }
+    .section-one-block {
+        flex-direction: column-reverse;
+    }
+    .list-group-item {
+        font-size: 15px;
+    }
+    .modal-button {
+        font-size: 15px;
+    }
+    .card-header{
+        font-size: 20px;
+    }
+    }

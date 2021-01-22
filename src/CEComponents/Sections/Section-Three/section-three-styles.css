@@ -1,0 +1,61 @@
+.second-box {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #1F214D;
+    padding: 40px;
+    align-self: center;
+    justify-self: center;
+}
+
+.list-button {
+    color: white;
+    background-color: transparent;
+    font-family: 'Inter', 'sans-serif';
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border-color: transparent;
+}
+
+.list-button:hover {
+    background-color: #526FB7;
+    ;
+}
+
+.list-button:active {
+    background-color: #526FB7;
+
+}
+
+.btn-group-vertical {
+    border-right: solid;
+    border-color: white;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    /* For mobile: */
+    .btn-group-vertical{
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-right: none;
+        border-bottom: solid;
+        border-color: white;
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    .first-box{
+        padding: 0px;
+    }
+    .second-box{
+        flex-direction: column;
+        padding:0px;
+    }
+    .list-button {
+        font-size: 16px;
+    }
+     
+  }

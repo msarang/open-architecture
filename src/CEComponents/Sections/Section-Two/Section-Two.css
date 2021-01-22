@@ -1,0 +1,54 @@
+.section-two-wrapper {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-left: 5%;
+}
+.section-two-card{
+    display: flex;
+    align-items: center;
+    background-color: #1F214D;
+    padding: 0px;
+    border: none;
+}
+
+.section-two-card-body{
+    background-color: #1F214D;
+    padding: 0px;
+    width: 80%;
+    height: 90%;
+}
+
+.iframe-carousel {
+    width: 100%;
+}
+
+.carousel {
+    padding-top: 10px;
+    height: 150%;
+    overflow-x: scroll;
+}
+
+*, ::after {
+    border: none;
+}
+
+.carousel::before {
+    border: none;
+}
+
+.carousel-indicators li {
+    position: relative;
+    background-color: pink;
+    height: 20px;
+    top: -100px;
+  }
+
+
+.modal-content {
+    background-color: transparent;
+}
+
+.modal-body {
+    background-color: transparent;
+}

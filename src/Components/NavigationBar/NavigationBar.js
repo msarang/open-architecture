@@ -18,6 +18,7 @@ export const NavigationBar = () => (
             <NavItem to="./Database">DATABASE</NavItem>
             <NavItem to="./Roadmap">ROADMAP</NavItem>
             <NavItem to="./Contribute">SUBMIT A MISSION</NavItem>
+            <NavItem to="/CE">2021 IN LUNAR EXPLORATION</NavItem>
         </div>
     </div>
 
