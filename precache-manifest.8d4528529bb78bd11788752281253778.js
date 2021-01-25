@@ -9,7 +9,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8a3ad4b0316e8bb6c7fa",
-    "url": "/loa.mit.edu/static/js/2.4cf47807.chunk.js"
+    "url": "/static/js/2.4cf47807.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
