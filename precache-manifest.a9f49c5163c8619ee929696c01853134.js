@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96df00e2aa903ee3953ee1c1454e5b06",
+    "revision": "a3a7b4d3d397c1839042fad567654f24",
     "url": "/index.html"
   },
   {
-    "revision": "b047c8f51510c66f007e",
-    "url": "/static/css/main.02c30f51.chunk.css"
+    "revision": "f1ccacc835c11ed57de1",
+    "url": "/static/css/main.ece85ddb.chunk.css"
   },
   {
-    "revision": "8a3ad4b0316e8bb6c7fa",
-    "url": "/static/js/2.4cf47807.chunk.js"
+    "revision": "73f9eec15a69a304879e",
+    "url": "/static/js/2.9b47c652.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.4cf47807.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9b47c652.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b047c8f51510c66f007e",
-    "url": "/static/js/main.afda6520.chunk.js"
+    "revision": "f1ccacc835c11ed57de1",
+    "url": "/static/js/main.257de6e8.chunk.js"
   },
   {
-    "revision": "b1d02618ff0be0fd50e6",
-    "url": "/static/js/runtime-main.a0cc41bd.js"
+    "revision": "703ffddfbc5b88f66e66",
+    "url": "/static/js/runtime-main.2d371e61.js"
+  },
+  {
+    "revision": "4b1f430d91fed8ffe864294ea2f78b91",
+    "url": "/static/media/DavaNASAPhoto.4b1f430d.jpg"
   },
   {
     "revision": "5a7c4566c408b76e29b26750e6b69392",
     "url": "/static/media/LOA_moon_transparent.5a7c4566.png"
-  },
-  {
-    "revision": "8aeef623b2707ebc8463d36686d1b03d",
-    "url": "/static/media/LOA_orbit_logo.8aeef623.png"
   },
   {
     "revision": "517fcd0686cb10d69ef32b6a1e7f0ea5",
@@ -48,16 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/crew.17007b68.png"
   },
   {
-    "revision": "e5360f92f9723594809b2f69bfe78999",
-    "url": "/static/media/exploration.e5360f92.png"
+    "revision": "3c1e5282a20d028d5caec374c55094c0",
+    "url": "/static/media/exploration.3c1e5282.png"
   },
   {
     "revision": "55d5c9347fcbc5a1691a1d422d4de865",
     "url": "/static/media/gateway.55d5c934.png"
   },
   {
-    "revision": "d36aba44a607fec5ee557b91831599f5",
-    "url": "/static/media/launch.d36aba44.png"
+    "revision": "e58aa9924972737ed2f1c0b4ebc2cd24",
+    "url": "/static/media/hastings.e58aa992.jpg"
+  },
+  {
+    "revision": "6cd44ae6e5be28eafe1fc56a832e6f80",
+    "url": "/static/media/launch.6cd44ae6.png"
   },
   {
     "revision": "ddd5a28b87d4035e58414415b30e3be1",
@@ -76,11 +80,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/rob.c24dcdd1.jpeg"
   },
   {
-    "revision": "f82f7df53ef949d64ea4004815eeb54c",
-    "url": "/static/media/surfaceMobility.f82f7df5.png"
+    "revision": "a0b3cea340a407cf2b1541a63b6c60da",
+    "url": "/static/media/surfaceMobility.a0b3cea3.png"
   },
   {
-    "revision": "38b2d8c0f892a00e187ee5bba853fe48",
-    "url": "/static/media/surfaceSettlement.38b2d8c0.png"
+    "revision": "4d6eedd5bf4897e04481b9b57f8ce9f3",
+    "url": "/static/media/surfaceSettlement.4d6eedd5.png"
   }
 ]);
